@@ -7,7 +7,7 @@
 
 Solfird AI Technical Report 2026-03 · November 2026 · Julien Simon
 
-[Report (PDF, 14 pages)](moe-router-delta.pdf) · [GitHub](https://github.com/solfird/moe-router-delta) · version 1.0
+[Report (PDF, 14 pages)](moe-router-delta.pdf) · [GitHub](https://github.com/solfird/moe-router-delta) · DOI [10.5281/zenodo.24362881](https://doi.org/10.5281/zenodo.24362881) (version 1.0) · all versions: [10.5281/zenodo.24362880](https://doi.org/10.5281/zenodo.24362880)
 
 ## The result
 
@@ -106,6 +106,7 @@ repository, and its release notes say what changed.
   number      = {2026-03},
   year        = {2026},
   month       = nov,
+  doi         = {10.5281/zenodo.24362881},
   url         = {https://github.com/solfird/moe-router-delta},
 }
 ```

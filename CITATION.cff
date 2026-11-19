@@ -12,6 +12,11 @@ version: "1.0"
 date-released: "2026-11-19"
 license: CC-BY-4.0
 repository-code: "https://github.com/solfird/moe-router-delta"
+doi: "10.5281/zenodo.24362881"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24362880"
+    description: "All versions of this report"
 keywords:
   - mixture of experts
   - expert routing
@@ -30,5 +35,6 @@ preferred-citation:
   institution:
     name: Solfird AI
   number: "Solfird AI Technical Report 2026-03"
+  doi: "10.5281/zenodo.24362881"
   year: 2026
   month: 11
