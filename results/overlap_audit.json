@@ -1,0 +1,208 @@
+{
+ "window_words": 12,
+ "training_prompts": {
+  "summarize": 1000,
+  "rewrite": 1000,
+  "qa": 1000,
+  "classify": 2166
+ },
+ "tests": {
+  "summarize/rewrite, CNN/DailyMail test (all)": {
+   "items": 11490,
+   "sharing_a_window": 9,
+   "first_positions": [
+    42,
+    101,
+    655,
+    3183,
+    5711,
+    5944,
+    6905,
+    9780,
+    10077
+   ]
+  },
+  "qa, SQuAD validation (all), context and question": {
+   "items": 10570,
+   "sharing_a_window": 5,
+   "first_positions": [
+    4923,
+    4924,
+    4925,
+    4926,
+    4927
+   ]
+  },
+  "classify, AG News test (all)": {
+   "items": 7600,
+   "sharing_a_window": 113,
+   "first_positions": [
+    89,
+    97,
+    166,
+    194,
+    198,
+    254,
+    256,
+    301,
+    320,
+    426
+   ]
+  },
+  "emotion test (all)": {
+   "items": 2000,
+   "sharing_a_window": 0,
+   "first_positions": []
+  }
+ },
+ "scored_items_by_teacher_file": {
+  "items 300 to 599": {
+   "qwen36_c3b_teacher": {
+    "summarize": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "qa": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "classify": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "rewrite": {
+     "items": 300,
+     "sharing_a_window": 0
+    }
+   },
+   "qwen36_c3b_teacher_dbrand": {
+    "summarize": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "qa": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "classify": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "rewrite": {
+     "items": 300,
+     "sharing_a_window": 0
+    }
+   },
+   "qwen36_c3b_teacher_known": {
+    "summarize": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "qa": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "classify": {
+     "items": 300,
+     "sharing_a_window": 5
+    },
+    "rewrite": {
+     "items": 300,
+     "sharing_a_window": 0
+    }
+   },
+   "qwen36_c3b_teacher_zero": {
+    "summarize": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "qa": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "classify": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "rewrite": {
+     "items": 300,
+     "sharing_a_window": 0
+    }
+   }
+  },
+  "items 600 to 899": {
+   "qwen36_c3b_teacher": {
+    "summarize": {
+     "items": 300,
+     "sharing_a_window": 1
+    },
+    "qa": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "classify": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "rewrite": {
+     "items": 300,
+     "sharing_a_window": 0
+    }
+   },
+   "qwen36_c3b_teacher_dbrand": {
+    "summarize": {
+     "items": 300,
+     "sharing_a_window": 1
+    },
+    "qa": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "classify": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "rewrite": {
+     "items": 300,
+     "sharing_a_window": 0
+    }
+   },
+   "qwen36_c3b_teacher_known": {
+    "summarize": {
+     "items": 300,
+     "sharing_a_window": 1
+    },
+    "qa": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "classify": {
+     "items": 300,
+     "sharing_a_window": 4
+    },
+    "rewrite": {
+     "items": 300,
+     "sharing_a_window": 0
+    }
+   },
+   "qwen36_c3b_teacher_zero": {
+    "summarize": {
+     "items": 300,
+     "sharing_a_window": 1
+    },
+    "qa": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "classify": {
+     "items": 300,
+     "sharing_a_window": 0
+    },
+    "rewrite": {
+     "items": 300,
+     "sharing_a_window": 0
+    }
+   }
+  }
+ }
+}

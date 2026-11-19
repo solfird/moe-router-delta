@@ -1,0 +1,17 @@
+{
+ "model": "mlx-community/Qwen3.6-35B-A3B-4bit",
+ "snapshot": "38740b847e4cb78f352aba30aa41c76e08e6eb46",
+ "mlx": "0.32.4",
+ "mlx_lm": "0.32.2",
+ "python": "3.13.15",
+ "git_commit": "ecd03fd10dd608528f187a3eeeccecc8cb569147",
+ "git_dirty": false,
+ "start": "2026-11-12T22:07:10+01:00",
+ "tag": "qwen36_d300_ends64_c3bstop12seed1",
+ "router": null,
+ "delta": "distill_ckpt/qwen36_c3b_k12_s32_mu0.01_ends64_stop_seed1_chunked/delta_0500.safetensors",
+ "frac": 0.046875,
+ "k": 12,
+ "s": 32,
+ "n": 300
+}

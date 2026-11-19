@@ -1,0 +1,5 @@
+items 300 duplicates (item numbers): [373, 460, 544, 566, 578]
+a kept [np.float64(66.9), np.float64(85.8), np.float64(85.0), np.float64(94.9), np.float64(66.9), np.float64(77.6)] median 81.3 | gain [np.float64(-16.9), np.float64(-0.7), np.float64(-1.4), np.float64(7.1), np.float64(-16.9), np.float64(-7.8)] median -4.6
+known kept [np.float64(96.5), np.float64(92.9), np.float64(91.3), np.float64(89.4), np.float64(95.3), np.float64(89.0)] median 92.1 | gain [np.float64(8.5), np.float64(5.4), np.float64(4.1), np.float64(2.4), np.float64(7.5), np.float64(2.0)] median 4.7
+dbrand kept [np.float64(88.2), np.float64(79.9), np.float64(83.9), np.float64(80.7), np.float64(81.5), np.float64(77.6)] median 81.1 | gain [np.float64(1.4), np.float64(-5.8), np.float64(-2.4), np.float64(-5.1), np.float64(-4.4), np.float64(-7.8)] median -4.7
+p known>a 0.013 p known>dbrand 0.0011 p dbrand>a 0.4167
